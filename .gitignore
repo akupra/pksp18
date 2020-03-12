@@ -1,6 +1,7 @@
 .vs/
 Debug/
 *Debug*
+*Release*
 *.user
 *.exe
 *.ilk
@@ -9,3 +10,7 @@ Debug/
 *.filters
 *.rc
 *.aps
+*.sln
+*.tlog
+*.log
+*.obj

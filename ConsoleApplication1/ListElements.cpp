@@ -14,7 +14,7 @@ struct ListElement
 	}
 };
 
-void AddToList(ListElement*& first, int n)
+inline void AddToList(ListElement*& first, int n)
 {
 	ListElement* l = first;
 	ListElement* p = NULL;
@@ -50,7 +50,7 @@ void AddToList(ListElement*& first, int n)
 		}
 	}
 }
-void DeleteFromList(ListElement*& first, int n)
+inline void DeleteFromList(ListElement*& first, int n)
 {
 	ListElement* l = first;
 	ListElement* p = NULL;
@@ -72,7 +72,7 @@ void DeleteFromList(ListElement*& first, int n)
 
 }
 
-void InputList(ListElement*& first)
+inline void InputList(ListElement*& first)
 {
 	ListElement* p = first;
 
@@ -85,7 +85,7 @@ void InputList(ListElement*& first)
 		i++;
 	}
 }
-void OutputList(ListElement* l)
+inline void OutputList(ListElement* l)
 {
 	while (l != NULL)
 	{
