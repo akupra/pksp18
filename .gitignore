@@ -10,7 +10,6 @@ Debug/
 *.filters
 *.rc
 *.aps
-*.sln
 *.tlog
 *.log
 *.obj
