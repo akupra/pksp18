@@ -1,7 +1,11 @@
 .vs/
-*/Debug
-Debug/*
+Debug/
+*Debug*
 *.user
 *.exe
 *.ilk
 *.pdb
+*.vcxproj
+*.filters
+*.rc
+*.aps
